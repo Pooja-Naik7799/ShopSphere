@@ -1,0 +1,85 @@
+/* ===== NAV BAR ===== */
+
+.navbar {
+    background-color: #5875BE;
+    padding: 8px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #232f3e;
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+/* Back to top */
+.back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 12px;
+}
+
+.back-to-top a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Footer main links */
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 80px;
+    gap: 40px;
+}
+
+.footer-column h4 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.footer-column a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom footer */
+.footer-bottom {
+    border-top: 1px solid #3a4553;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-bottom img {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom span {
+    margin: 0 10px;
+    font-size: 13px;
+}
+

@@ -1,0 +1,65 @@
+/* ===== HEADER STYLES ===== */
+body{
+    background-color:whitesmoke ;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Logo */
+.nav-logo img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    background-color: white; /* temporary for visibility */
+    padding: 4px;
+}
+
+
+/* Search Bar */
+.nav-search {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.nav-search button {
+    background-color: #febd69;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Right Side Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nav-item strong {
+    display: block;
+    font-size: 14px;
+}
+
+.cart {
+    font-size: 16px;
+}
